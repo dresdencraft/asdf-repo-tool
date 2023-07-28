@@ -4,6 +4,9 @@ asdf repo tool plugin for custom repo tool that installs a tag from Nexient that
 To install:
 
 `asdf plugin-add repo-tool https://github.com/dresdencraft/asdf-repo-tool`
+
 `asdf install repo-tool v2.9-nexient`
+
 `asdf reshim`
+
 `asdf global repo-tool v2.9-nexient`
