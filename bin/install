@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -e
+
+# The installation steps go here
+git clone https://github.com/nexient-llc/git-repo.git $ASDF_INSTALL_PATH
+cd $ASDF_INSTALL_PATH
+git checkout main
+chmod +x repo
+
+# Create 'bin' directory if not exists
+mkdir -p $ASDF_INSTALL_PATH/bin
+# Create a symbolic link
+ln -sf $(pwd)/repo $ASDF_INSTALL_PATH/bin/repo

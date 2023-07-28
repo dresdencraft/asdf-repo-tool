@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Check if the current directory contains the 'repo-tool' and determine its version
+echo "repo-tool v2.9-nexient"
+# Change the version accordingly based on the tool version in the current directory
+
