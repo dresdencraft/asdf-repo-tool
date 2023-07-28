@@ -1,0 +1,10 @@
+[core]
+name = "repo-tool"
+repo = "https://github.com/nexient-llc/git-repo.git"
+
+[commands]
+install = "bin/install"
+list-all = "bin/list-all"
+detect = "bin/detect"
+activate = "bin/activate"
+
